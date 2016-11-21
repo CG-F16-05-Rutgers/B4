@@ -480,6 +480,7 @@ public class IKController : MonoBehaviour
         FullBodyBipedEffector effector, 
         InteractionObject obj)
     {
+        
         this.bodyController.StartInteraction(effector, obj);
         this.lookController.HeadOnly(this.DefaultDelay);
     }
